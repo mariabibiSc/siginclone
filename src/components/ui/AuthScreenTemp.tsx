@@ -33,7 +33,7 @@ const AuthScreenTemp: React.FC<AuthScreenTempProps> = ({
       </div>
 
       {/* ---------------right Column------------------ */}
-      <div className=" mt-6 lg:mt-0 flex justify-center items-center">
+      <div className=" mt-6 lg:mt-0 flex justify-center ">
         <img
           src={illustration}
           alt="Login Illustration"

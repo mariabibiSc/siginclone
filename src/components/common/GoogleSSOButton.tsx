@@ -11,7 +11,7 @@ const GoogleSSOButton: React.FC = () => {
   };
   return (
     <button
-      className="flex items-center justify-center font-[460] space-x-2 px-4 py-2 rounded-[2px] min-w-[421px] text-[#3B4752] border border-gray-[#CFD8E1] hover:bg-gray-100"
+      className="flex items-center justify-center font-[460] space-x-2 px-4 py-2 rounded-[2px] w-full  text-[#3B4752] border border-gray-[#CFD8E1] hover:bg-gray-100"
       onClick={onClickFunction}
     >
       <img src={googleIcon} alt="Google sign in" className="w-5 h-5" />
