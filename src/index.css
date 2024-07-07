@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font family applied in whole applcation */
+*{
+    font-family: 'Public Sans', sans-serif;
+}
