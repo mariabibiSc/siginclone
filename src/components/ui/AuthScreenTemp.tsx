@@ -23,7 +23,7 @@ const AuthScreenTemp: React.FC<AuthScreenTempProps> = ({
       {/* ---------------Left Column------------------ */}
       <div className="bg-white pt-8 px-10">
         <img src={logo} alt="logo" />
-        <h1 className="text-[#222B33] leading-[60px] max-w-[421px] font-[600] text-[64px] mt-12 mb-3">
+        <h1 className="text-[#222B33] font-soraVarible leading-[60px] max-w-[421px] font-[600] text-[64px] mt-12 mb-3">
           {mainHeading}
         </h1>
         <p className="text-[#3B4752] text-[18px] font-[300] mb-5 max-w-[421px]">
