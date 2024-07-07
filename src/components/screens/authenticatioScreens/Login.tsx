@@ -7,7 +7,6 @@
 // Modifications: Add reuseable component in it previously it was done without dummy components
 
 import React, { useState } from "react";
-import googleIcon from "../../../assets/icons/_Google Logo Icon.svg";
 import { login } from "../../../services/authApis/login";
 import eyeIcon from "../../../assets/icons/_Tinted Icon Hide.svg";
 import eyeSlashIcon from "../../../assets/icons/_Tinted Icon.svg";

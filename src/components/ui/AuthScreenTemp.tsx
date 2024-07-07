@@ -19,7 +19,7 @@ const AuthScreenTemp: React.FC<AuthScreenTempProps> = ({
   illustration,
 }) => {
   return (
-    <div className="md:flex w-full justify-center">
+    <div className="lg:flex w-full items-center justify-center">
       {/* ---------------Left Column------------------ */}
       <div className="bg-white pt-8 px-10">
         <img src={logo} alt="logo" />
@@ -33,8 +33,12 @@ const AuthScreenTemp: React.FC<AuthScreenTempProps> = ({
       </div>
 
       {/* ---------------right Column------------------ */}
-      <div className="flex justify-center items-center">
-        <img src={illustration} alt="Login Illustration" className="h-screen" />
+      <div className=" mt-6 lg:mt-0 flex justify-center items-center">
+        <img
+          src={illustration}
+          alt="Login Illustration"
+          className="lg:h-screen w-full lg:w-[731px]"
+        />
       </div>
     </div>
   );
