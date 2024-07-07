@@ -85,7 +85,7 @@ const Login = () => {
             />
           </button>
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex md:flex-row flex-col items-center justify-between">
           <label className="flex items-center cursor-pointer">
             <input
               type="checkbox"
@@ -103,7 +103,7 @@ const Login = () => {
 
           <a
             href="#"
-            className="font-[500] text-[16px] leading-[24px] underline"
+            className="font-[500] text-[16px] leading-[24px] underline mt-5 md:mt-0"
           >
             Forgot password?
           </a>
